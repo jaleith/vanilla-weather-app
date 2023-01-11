@@ -14,37 +14,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="weather-app">
-        <h1>New York</h1>
-        <ul>
-          <li>Tuesday, 15:54</li>
-          <li>Clear Sky</li>
-        </ul>
-        <div class="row">
-          <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-              alt="Sunny"
-            />
-            22 °C | °F
+    <div class="app">
+      <div class="container">
+        <div class="weather">
+          <div class="row">
+            <div class="col-6">
+              <h1>New York</h1>
+              <div class="temperature-container">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                  alt="Sunny"
+                />
+                <span class="temperature">22</span>
+                <span class="unit">°C | °F</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Tuesday 15:54, Clear Sky</li>
+                <li>Humidity: 22%, Wind: 22 km/h</li>
+              </ul>
+            </div>
           </div>
-          <div class="col-6">
-            <ul>
-              <li>Precipitation: 22%</li>
-              <li>Humidity: 22%</li>
-              <li>Wind: 22 km/h</li>
-            </ul>
-          </div>
+          <footer>
+            <a
+              href="https://github.com/jaleith/vanilla-weather-app"
+              target="_blank"
+              >Open-source code</a
+            >
+            by Jaleith.
+          </footer>
         </div>
-        <small
-          ><a
-            href="https://github.com/jaleith/vanilla-weather-app"
-            target="_blank"
-            >Open-source code</a
-          >
-          by Jaleith.</small
-        >
       </div>
     </div>
     <script src="app.js"></script>
